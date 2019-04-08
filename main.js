@@ -10,7 +10,7 @@ console.log(`${bot.user.username} is online in ${bot.guilds.size} Servers:`)
 bot.guilds.forEach((guild) => {
   console.log(" " + guild.name)
 })
-  bot.user.setActivity(`/help | /invite | In ${bot.guilds.size} servers!`, {type: "WATCHING"});
+  bot.user.setActivity(` /owner | /help | /invite | In ${bot.guilds.size} servers!`, {type: "WATCHING"});
 });
 
   // console.log is the terminal; if the bot is started correcty, it will send the message 
